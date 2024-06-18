@@ -43,6 +43,28 @@
         margin-top: 0;
     }
 }
+@media screen and (min-width: 1201px) and (max-width: 1399px) {
+    section {
+        margin: 0 5%;
+    }
+    section,
+    .section-container {
+        height: fit-content;
+    }
+    .arrow {
+        display: none;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
 
 @media screen and (max-width: 600px) {
     #contact, footer {
